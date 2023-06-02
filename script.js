@@ -1,3 +1,8 @@
+document.addEventListener('DOMContentLoaded', function() {
+    var audio = document.getElementById('audio-player');
+    audio.play();
+  });
+
 let currentPageUrl = 'https://swapi.dev/api/people/'
 
 window.onload = async () => {
