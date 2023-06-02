@@ -176,9 +176,3 @@ function convertBirthYear(birthYear) {
     return birthYear
 }
 
-var audio = document.getElementById("background-music");
-var volumeControl = document.getElementById("volume-control");
-
-volumeControl.addEventListener("input", function() {
-  audio.volume = volumeControl.value;
-});
